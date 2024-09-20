@@ -1,6 +1,7 @@
 
 ![alt text](./tap.png "TAP")
-#TAP
+
+# TAP
 TAP is what it is—a VST plugin that uses both MIDI and Mouse Inputs to estimate the Tempo of any song. If you produce music like I do sometimes, there are situations where you might want to get the tempo of a song. Trying to do this manually is hard and frustrating! By sending triggers from your MIDI keyboard or through your mouse by clicking on a button, you can get the tempo of any song. TAP's accuracy is your accuracy; so tap precisely :-).
 
 ## Demo Video

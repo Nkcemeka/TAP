@@ -7,8 +7,8 @@
               pluginManufacturer="TAP" pluginManufacturerCode="TAPC">
   <MAINGROUP id="ZWH5Il" name="TAP">
     <GROUP id="{802529C1-9539-B6B2-6CAD-12880C2F000C}" name="Resources">
-      <FILE id="NSestV" name="RubikMonoOne-Regular.ttf" compile="0" resource="1"
-            file="../../../Downloads/Rubik_Mono_One/RubikMonoOne-Regular.ttf"/>
+      <FILE id="MsWK8c" name="RubikMonoOne-Regular.ttf" compile="0" resource="1"
+            file="Resources/RubikMonoOne-Regular.ttf"/>
     </GROUP>
     <GROUP id="{583D785A-BDDE-A0B6-BC27-42D78BA034EC}" name="Source">
       <FILE id="a6G8yM" name="LED.cpp" compile="1" resource="0" file="Source/LED.cpp"/>

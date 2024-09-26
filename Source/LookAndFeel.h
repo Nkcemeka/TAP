@@ -3,7 +3,7 @@
 
     LookAndFeel.h
     Created: 17 Sep 2024 3:58:05pm
-    Author:  kevin
+    Author:  Chukwuemeka L. Nkama
 
   ==============================================================================
 */

@@ -51,7 +51,7 @@ void Screen::paint (juce::Graphics& g)
                 juce::Justification::centred, true);   // draw Tempo to Screen
 
 
-    g.setFont(14.0f);
+    g.setFont(16.0f);
     juce::Rectangle<float> paddedArea = bounds.withTrimmedRight(10).withTrimmedBottom(10);
     g.drawText(units, paddedArea, juce::Justification::bottomRight, true);
 }

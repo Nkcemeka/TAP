@@ -26,12 +26,12 @@ TAPAudioProcessorEditor::TAPAudioProcessorEditor (TAPAudioProcessor& p)
     // Setup label
     label.setColour(juce::Label::textColourId, juce::Colours::black);
     label.setText("TRIGGER", juce::dontSendNotification);
-    label.setFont(juce::Font(10.0f));
+    label.setFont(juce::Font(10.0f, juce::Font::bold));
 
     // Setup toggle label
     toggleLabel.setColour(juce::Label::textColourId, juce::Colours::black);
     toggleLabel.setText("MIDI MODE", juce::dontSendNotification);
-    toggleLabel.setFont(juce::Font(10.0f));
+    toggleLabel.setFont(juce::Font(10.0f, juce::Font::bold));
 
     // Setup Tap Button
     tap.setButtonText("TAP");
@@ -78,7 +78,8 @@ TAPAudioProcessorEditor::~TAPAudioProcessorEditor()
 void TAPAudioProcessorEditor::paint (juce::Graphics& g)
 {
     // (Our component is opaque, so we must completely fill the background with a solid colour)
-    g.fillAll (getLookAndFeel().findColour (juce::ResizableWindow::backgroundColourId));
+    //g.fillAll (getLookAndFeel().findColour (juce::ResizableWindow::backgroundColourId));
+    g.fillAll(juce::Colour(0xffc9cbce));
 }
 
 void TAPAudioProcessorEditor::resized()
@@ -104,7 +105,7 @@ void TAPAudioProcessorEditor::resized()
     auto switchHeight = 30;
     toggleSwitch.setBounds(tap.getBounds().getX() - switchWidth - 20, 
         tap.getBounds().getCentre().getY() - switchHeight / 2, switchWidth, switchHeight);
-    toggleLabel.setBounds(toggleSwitch.getBounds().getCentre().getX() - 35, led.getBounds().getY(),
+    toggleLabel.setBounds(toggleSwitch.getBounds().getCentre().getX() - 28, led.getBounds().getY(),
         70, 10);
 }
 

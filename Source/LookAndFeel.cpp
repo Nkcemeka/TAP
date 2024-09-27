@@ -14,10 +14,9 @@ LookAndFeel::LookAndFeel()
 {
     // Set font to Roboto
     juce::Typeface::Ptr typeface = juce::Typeface::createSystemTypefaceFor(
-        BinaryData::RubikMonoOneRegular_ttf, BinaryData::RubikMonoOneRegular_ttfSize
+        BinaryData::RubikVariableFont_wght_ttf, 8.0f
     );
     setDefaultSansSerifTypeface(typeface);
-    setColour(juce::ResizableWindow::backgroundColourId, juce::Colour(0xffc9cbce));
     setColour(juce::TextButton::ColourIds::buttonColourId, juce::Colour(0xff101621));
 }
 
